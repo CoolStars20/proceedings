@@ -3,13 +3,13 @@
 %% Author: Gregory A. Feiden
 %%   Date: 2014 Oct 30
 %%
-%% Update:
+%% Update: H. M. Guenther (2018 June 20)
 %%
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 
-\ProvidesClass{cs19proc}[2014/10/30 
-    v0.1 Cool Stars 19 document class]
+\ProvidesClass{cs20proc}[2014/10/30 
+    v0.1 Cool Stars 20 document class]
 
 \LoadClass[11pt,twocolumn]{article}
 
