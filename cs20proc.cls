@@ -4,11 +4,12 @@
 %%   Date: 2014 Oct 30
 %%
 %% Update: H. M. Guenther (2018 June 20)
+%% Update: H. M. Guenther (2021 Feb 05)
 %%
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 
-\ProvidesClass{cs20proc}[2014/10/30 
+\ProvidesClass{cs20proc}[2014/10/30
     v0.1 Cool Stars 20 document class]
 
 \LoadClass[11pt,twocolumn]{article}
@@ -21,7 +22,7 @@
 \RequirePackage{libertine}
 \RequirePackage[T1]{fontenc}
 
-%% Page dimensions 
+%% Page dimensions
 \textwidth=7.1in  %7.1
 \columnsep=0.3125in
 \parindent=0.125in
@@ -98,7 +99,7 @@
 \setlength\headheight{12\p@}
 
 
-%% Running header and footer 
+%% Running header and footer
 \newcommand\shorttitle[1]{\gdef\@shortitle{#1}}
 \newcommand\shortauthors[1]{\gdef\@shortauthors{#1}}
 \newcommand\editors[1]{\gdef\@editors{#1}}
@@ -133,7 +134,7 @@
     \vspace{-\headsep}\vspace{\headheight}
     {\footnotesize \@conference \\
      Edited by \@editors}
-    
+
 	\vskip 4.0em
 	\begin{flushleft}
 		{\LARGE \@title \par}
@@ -207,7 +208,7 @@
 \def\p@paragraph      {}
 \def\p@subparagraph   {}
 
-%% 
+%%
 %% References
 %%
 \setlength{\bibsep}{0pt plus 0.3 ex}
